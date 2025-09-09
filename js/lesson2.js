@@ -44,11 +44,12 @@ console.log(typeof (sqrtNumber));
 // 9
 const integer = 42;
 const stringNumber = "256";
-console.log( convertedInt);
+const convertedInt = parseInt(stringNumber);
+console.log(convertedInt);
 console.log(typeof (convertedInt));
-const convertedString = toString(convertedInt)
-console.log(convertedString);
-console.log(typeof (convertedString));
+const convertedString = toString(integer);
+console.log(integer);
+console.log(typeof (integer));
 
 
 
